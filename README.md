@@ -20,6 +20,9 @@ $g = array(<br />
 $bfs = new BFS($g);<br />
 //Find the closest points to the point 2. <br />
 $bfs->breadthFirst(2);<br /><br />
-The result will be:  1 5 6 3 4 9 10 7 8 11 12 which means the closest points to 2 are 1,5,6 and the farthest are 11,12<br />
+The result will be:  1 5 6 3 4 9 10 7 8 11 12 which means the closest points to 2 are 1,5,6 and the farthest are 11,12<br /><br />
+
+For more infomations:<br />
+https://en.wikipedia.org/wiki/Breadth-first_search<br />
 
 
