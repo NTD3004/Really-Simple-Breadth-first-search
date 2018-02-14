@@ -2,7 +2,7 @@
 <br />
 Example:<br />
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Breadth-first-tree.svg"> <br/>
-The Graph:<br />
+//The Graph:<br />
 $g = array(<br />
     1 => array(1=>0, 2=>1, 3=>1, 4=>1, 5=>0, 6=>0, 7=>0, 8=>0, 9=>0, 10=>0, 11=>0, 12=>0),<br />
     2 => array(1=>1, 2=>0, 3=>0, 4=>0, 5=>1, 6=>1, 7=>0, 8=>0, 9=>0, 10=>0, 11=>0, 12=>0),<br />
@@ -18,7 +18,7 @@ $g = array(<br />
     12 => array(1=>0, 2=>0, 3=>0, 4=>0, 5=>0, 6=>0, 7=>1, 8=>0, 9=>0, 10=>0, 11=>0, 12=>0),<br />
 );<br/>
 $bfs = new BFS($g);<br />
-Find the closest points to the point 2. <br />
+//Find the closest points to the point 2. <br />
 $bfs->breadthFirst(2);<br />
 The result will be:  1 5 6 3 4 9 10 7 8 11 12 which means the closest points to 2 are 1,5,6 and the farthest are 11,12<br />
 
